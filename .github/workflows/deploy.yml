@@ -51,7 +51,7 @@ jobs:
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           source: "*.jar"
-          target: "/home/ubuntu/app/"
+          target: "/home/ubuntu/apps/"
           overwrite: true
 
       # ✅ EC2에서 애플리케이션 실행
