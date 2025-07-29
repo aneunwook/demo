@@ -8,6 +8,6 @@ public class TestController {
 
     @GetMapping("/hi")
     public String test(){
-        return "내가 만든 서버";
+        return "제발 성공좀";
     }
 }
