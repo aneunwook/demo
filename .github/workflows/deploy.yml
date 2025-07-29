@@ -25,7 +25,7 @@ jobs:
       - name: Build Spring Boot App
         run: ./gradlew clean build -x test
 
-      # ✅ 빌드된 JAR 업로드 (워크플로우 아티팩트로 저장)
+      # ✅ 빌드된 JAR 업로드 (워크플로우 아티팩트로 저장
       - name: Upload JAR Artifact
         uses: actions/upload-artifact@v4
         with:
